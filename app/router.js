@@ -7,6 +7,10 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('map');
+  this.route('fb');
+  this.route('classes');
+  this.route('overview');
 });
 
 export default Router;

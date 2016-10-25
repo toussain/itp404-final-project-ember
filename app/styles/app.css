@@ -1,0 +1,28 @@
+body{
+  background-color: gold;
+}
+
+h2{
+  color: firebrick;
+}
+
+a:link{
+  color: firebrick;
+}
+
+a:visited{
+  color: firebrick;
+}
+
+a:hover{
+  color: white;
+}
+
+a:active{
+  color: black;
+}
+
+footer{
+  font-weight: bold;
+  font-style: italic;
+}
