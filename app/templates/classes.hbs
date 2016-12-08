@@ -1,5 +1,15 @@
 <h2> AME Classes </h2>
-
-<p> All AME Classes go here </p>
-
 {{outlet}}
+
+<ul>
+  {{#each model.classes as |cl|}}
+    <li class="classes"><strong> {{cl.className}}</strong>
+<br>
+    {{cl.title}}
+    <br>
+    {{cl.description}}
+    <br>
+    Units: {{cl.units}}
+    </li>
+  {{/each}}
+</ul>

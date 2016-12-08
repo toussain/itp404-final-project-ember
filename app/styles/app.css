@@ -6,6 +6,9 @@ h2{
   color: firebrick;
 }
 
+h1{
+  color: firebrick;
+}
 a:link{
   color: firebrick;
 }
@@ -25,4 +28,9 @@ a:active{
 footer{
   font-weight: bold;
   font-style: italic;
+}
+
+.map-canvas {
+  width: 600px;
+  height: 400px;
 }

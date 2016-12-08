@@ -1,0 +1,17 @@
+<h2> Organizations in Viterbi </h2>
+{{outlet}}
+
+<ul>
+  {{#each model.organizations as |org|}}
+    <li class="organizations"><strong> {{org.name}}</strong>
+<br>
+    <i>{{org.acronym}}</i>
+    <br>
+   {{org.description}}
+    <br>
+    {{org.website}} <br>
+      <img src= {{org.image}} alt=" Pic" style="width:100px; height:100px;">
+
+    </li>
+  {{/each}}
+</ul>

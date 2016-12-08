@@ -8,9 +8,14 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('map');
-  this.route('fb');
+  this.route('twitter');
+  this.route('overview', function() {
+    this.route('mech');
+    this.route('aero');
+    this.route('petro');
+});
   this.route('classes');
-  this.route('overview');
+  this.route('orgs');
 });
 
 export default Router;

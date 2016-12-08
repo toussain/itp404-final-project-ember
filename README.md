@@ -4,7 +4,7 @@ This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
 Project Description:
-"Everything AME-USC Edition" is an app that showcases major classes, current events, and important buildings for the Aerospace and Mechanical Engineering Department. The APIs would be the Google Map API, Facebook API, and my own classes database (unless AME has one).
+My project is called "Everything AME-USC Edition" and it is a site that showcases different majors, different classes, student organizations, and important buildings for the Aerospace and Mechanical Engineering Department. 
 
 ## Prerequisites
 

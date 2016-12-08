@@ -1,6 +1,17 @@
-<h2> USC Campus </h2>
+<h2>USC Campus</h2>
 
-<p> Map of campus with at least 3 pinned buildings go here </p>
+{{google-map name="usc-map"
+            markerInfoWindowTemplateName='map/info-window'
+             markers=model
+             lat=centerLat
+             lng=centerLng
+             zoom=zoom
+             gopt_zoomControl=false
+             type='road'}}
 
-
-{{outlet}}
+<div class="controls">
+  <label>
+    Zoom:
+    {{input type="range" value=zoom min=0 max=18 step=1}}
+  </label>
+</div>
